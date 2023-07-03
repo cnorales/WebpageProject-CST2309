@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Homepage</title>
+	<link rel="stylesheet" type="text/css" href="../Styles/websiteTheme.css">
+	<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Oswald&display=swap" rel="stylesheet">
+	<script type="text/javascript">
+		function toEnglish1() {
+			var review1 = document.getElementById("comment1");
+			review1.innerHTML = "Chef LaBee did a great job catering my bachelorette party. Not only was she kind and amiable, but her food was also delicious.";
+		}
+		function toSpanish1() {
+			var review1 = document.getElementById("comment1");
+			review1.innerHTML = "Chef LaBee hizo un gran trabajo en mi despedida de soltera. No solo fue amable y afable, su comida era deliciosa.";
+		}
+		function toEnglish2() {
+			var review2 = document.getElementById("comment2");
+			review2.innerHTML = "I ordered a Black Panther cake for my daughter's birthday and it was beautiful. It was also delivered on time which was very professional of her.";
+		}
+		function toSpanish2() {
+			var review2 = document.getElementById("comment2");
+			review2.innerHTML = "Pedí un pastel Black Panther para el cumpleaños de mi hija y fue hermoso. También fue entregado a tiempo, lo cual fue muy profesional de su parte.";
+		}
+		function toEnglish3() {
+			var review3 = document.getElementById("comment3");
+			review3.innerHTML = "I requested catering for my birthday brunch. Her mimosas were delicious. The cake was divine.";
+		}
+		function toSpanish3() {
+			var review3 = document.getElementById("comment3");
+			review3.innerHTML = "Solicité catering para mi brunch de cumpleaños. Sus mimosas estaban deliciosas. El pastel estuvo divino.";
+		}
+	</script>
+</head>
+
+<body>
+	<!-- Logo Header -->
+	<div class="header test">
+		<img id="test"src="../Images/fullLogo.png">
+	</div>
+
+	<!-- Navigation Bar -->
+	<div>
+		<table id="nav">
+			<tr>
+				<td id="current"><a href="home.html" target="_blank">Home</a></td>
+				<td><a href="history.html" target="_blank">History</a></td>
+				<td><a href="menu.html" target="_blank">Menu</a></td>
+				<td><a href="location.html" target="_blank">Location</a></td>
+				<td><a href="socialMedia.html" target="_blank">Social Media</a></td>
+			</tr>
+		</table>
+	</div>
+
+	<!-- Webpage Content -->
+	<div>
+		<table class="home">
+			<tr>
+				<td class="home"><img class="home" src="../Images/pastries/orangeNaked.jpg" style="width: 100%;"></td>
+				<td class="home"><img class="home" src="../Images/pastries/seashells.jpg" style="width: 100%;"></td>
+				<td class="home"><img class="home" src="../Images/dishes/crabCake.jpg" style="width: 100%;"></td>
+			</tr>
+		</table>
+	</div>
+	<div>
+		<h1 style="text-align: center; font-size: 36px;">Chef LaBee Catering Services</h1>
+		<p class="content" style="text-align: center; font-size: 24px;">Call Chef LaBee for all your catering needs, no matter the occasion.</p>
+		<p class="content" style="text-align: center; font-size: 24px;"><a class="home" href="socialMedia.html">Click here to fill out an inquiry.</a></p>
+	</div>
+
+	<br />
+	<br />
+	<br />
+	<br />
+
+	<!-- Customer Reviews -->
+	<h1 style="text-align: center; font-size: 36px;">Customer Reviews</h1>
+	<div style="width: 33%; float: left;">
+		<div style="text-align: center;">
+			<img src="../Images/profile_1.jpeg">
+		</div>
+		<p class="content" id="comment1" onmouseover="toSpanish1()" onmouseout="toEnglish1()" style="text-align: center; font-size: 24px;">Chef LaBee did a great job catering my bachelorette party. Not only was she kind and amiable, but her food was also delicious</p>
+	</div>
+	<div style="width: 33%; float: left;">
+		<div style="text-align: center;">
+			<img src="../Images/profile_1.jpeg">
+		</div>		<p class="content" id="comment2" onmouseover="toSpanish2()" onmouseout="toEnglish2()" style="text-align: center; font-size: 24px;">I ordered a Black Panther cake for my daughter's birthday and it was beautiful. It was also delivered on time which was very professional of her.</p>
+	</div>
+	<div style="width: 33%; float: left;">
+		<div style="text-align: center;">
+			<img src="../Images/profile_1.jpeg">
+		</div>
+		<p class="content" id="comment3" onmouseover="toSpanish3()" onmouseout="toEnglish3()" style="text-align: center; font-size: 24px;">I requested catering for my birthday brunch. Her mimosas were delicious. The cake was divine.</p>
+	</div>
+
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+
+	<!-- Webpage Footer -->
+	<div style="width: 100%; text-align: center; float:left;">
+		<p style="font-size: 18px; color: #eca606;" class="content">Don't forget to follow us on social media!</p>
+		<table class="social">
+			<tr>
+				<td style="width: 40%;"></td>
+				<td style="width: 20%"><a href="https://www.facebook.com/cheflabee"><img style="width: 50px;" src="../Images/facebook_black.png"></a> <a href="https://www.instagram.com/labeecuisine/"><img style="width: 50px;" src="../Images/insta_black.png"></a></td>
+				<td style="width: 40%;"></td>
+			</tr>
+		</table>
+		<p style="font-size: 18px; color: #eca606;" class="content">&copy COPYRIGHT CHEF LABEE CATERING</p>
+	</div>
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Social Media</title>
+	<link rel="stylesheet" type="text/css" href="../Styles/websiteTheme.css">
+	<script type="text/javascript">
+		function validateForm() {
+			if((document.forms["inquiry"]["fname"].value == null) || (document.forms["inquiry"]["fname"].value == "")) {
+				alert("First Name must be filled out");
+				return false;
+			}
+			else if((document.forms["inquiry"]["lname"].value == null) || (document.forms["inquiry"]["lname"].value == "")) {
+				alert("Last Name must be filled out");
+				return false;
+			}
+			else if((document.forms["inquiry"]["number"].value == null) || (document.forms["inquiry"]["number"].value == "")) {
+				alert("Phone number must be filled out");
+				return false;
+			}
+			else if((document.forms["inquiry"]["e-mail"].value == null) || (document.forms["inquiry"]["e-mail"].value == "")) {
+				alert("E-mail must be filled out");
+				return false;
+			}
+			else {
+				return true; 
+			}
+		}
+	</script>
+</head>
+
+<body>
+	<!-- Logo Header -->
+	<div class="header test">
+		<img id="test"src="../Images/fullLogo.png">
+	</div>
+
+	<!-- Navigation Bar -->
+	<table id="nav">
+		<tr>
+			<td><a href="home.html">Home</a></td>
+			<td><a href="history.html">History</a></td>
+			<td><a href="menu.html">Menu</a></td>
+			<td><a href="location.html">Location</a></td>
+			<td id="current"><a href="socialMedia.html">Social Media</a></td>
+		</tr>
+	</table>
+
+	<p class="content" id="social">Feel free to follow my social media accounts.</p>
+	<table class="social">
+		<tr>
+			<td id="left"></td>
+			<td id="center"><a href="https://www.facebook.com/cheflabee"><img class="social center" src="../Images/facebook.png"></a> <a href="https://www.instagram.com/labeecuisine/"><img class="social center" src="../Images/insta.webp"></a></td>
+			<td id="right"></td>
+		</tr>
+	</table>
+
+	<br />
+	<br />
+	<p class="content" id="social">Please fill out the form below for any inquiries.</p>
+	<form name="inquiry" action="http://www.websitedevelopmentbook.com/FormEcho.php" form="mailto:cheflabee@someSite.com" method="post" onsubmit="return validateForm()">
+		<!--action="inquiryForm.php"-->
+		First Name: 
+		<input type="text" name="fname"/>
+		<br/>
+		Last Name: 
+		<input type="text" name="lname"/>
+		<br/>
+		Phone Number: 
+		<input type="text" name="number"/>
+		<br/>
+		E-mail: 
+		<input type="text" name="e-mail"/>
+		<br/>
+		Brief Description of Service Wanted:
+		<br/>
+		<textarea rows="5" cols="45" name="service"></textarea>
+		<br/>
+		<input style="font-family: 'Lora', serif;" type="submit" value="Click to Submit"/>
+	</form>
+
+
+</body>
+</html>

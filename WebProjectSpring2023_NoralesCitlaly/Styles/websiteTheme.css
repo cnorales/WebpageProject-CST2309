@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Oswald&display=swap');
+
+body {
+	background-color: #ffffff;
+}
+.header {
+	text-align: center;
+	height: 150px;
+	width: auto;
+}
+/*.imageLogo {
+	width: 25%;
+}
+.txtLogo {
+	width: 75%;
+}*/
+#logo {
+	height: 150px;
+	width: auto;
+}
+#name {
+	height: 150px;
+	width: auto;
+}
+.header .test {
+	height: 200px;
+
+}
+#test {
+	height: 150px;
+	width: auto;
+}
+#navbar {
+	width: 100%;
+	float: left;
+}
+table#nav {
+	margin: 0;
+	background-color: #000000;
+	color: #eca606;
+	border: 0px solid;
+	text-align: center;
+	width: 100%;
+	font-size: 24px;
+}
+td {
+	font-family: 'Lora', serif;
+	width: 20%;
+}
+#current {
+	background-color: lightgrey;
+	border-color: lightgrey;
+	text-decoration: none;
+	color: black;
+
+}
+#current a:hover {
+	color: white;
+}
+
+a:link {
+	color: white;
+	text-decoration: none;
+}
+a:visited {
+	color: white;
+}
+a:hover {
+	color: #eca606;
+}
+a:active {
+	color: black;
+}
+h1, h2, h3 {
+	font-family: 'Oswald', sans-serif;
+}
+p.content {
+	font-family: 'Lora', serif;
+}
+p.title {
+	font-family: 'Oswald', sans-serif;
+	font-size: 36px;
+}
+/* home.html */
+table.home {
+	background-color: white;
+	padding: 0;
+}
+img.home {
+	float: left;
+}
+a.home {
+	text-align: center;
+	color: black;
+}
+/* history.html */
+#histFood {
+	width: 50%;
+	float: left;
+}
+p.content#history {
+	font-size: 24px;
+}
+
+/* menu.html */
+.menu {
+	font-family: 'Lora', serif;
+	font-size: 36px;
+}
+li.menu a:link {
+	color: #eca606;
+	text-decoration: none;
+}
+li.menu a:visited {
+	color: #eca606;
+	text-decoration: none;
+}
+li.menu {
+	font-size: 32px;
+	list-style-type: none;
+}
+}
+table.menu {
+	width:70%; 
+    margin-left:15%; 
+    margin-right:15%;
+	background-color: white;
+	color: #eca606;
+	border: 0px solid;
+	text-align: left;
+	font-size: 18px;
+	border: none;
+}
+table.menu a:link {
+	color: #eca606;
+	text-decoration: none;
+}
+table.menu a:visited {
+	color: #eca606;
+	text-decoration: none;
+}
+td.menu {
+	width: 33%;
+}
+p.title {
+	font-family: 'Oswald', sans-serif;
+}
+
+.images {
+	float: left;
+	width: 100%;
+}
+.sweetsCol {
+	float: left;
+	width: 25%;
+}
+img.sweetsCol{
+	width: 100%;
+	height: auto;
+
+}
+.dishesCol {
+	float: left;
+	width: 20%;
+}
+img.dishesCol{
+	width: 100%;
+	height: auto;
+
+}
+.setupCol {
+	float: left;
+	width: 50%;
+}
+img.setupCol{
+	width: 100%;
+	height: auto;
+
+}
+
+/* location.html */
+#hours {
+	float: left;
+	width: 50%;
+}
+.hours {
+	width: auto;
+	height: auto;
+	background-color: white;
+	color: #eca606;
+	border: 0px solid;
+	text-align: left;
+	font-size: 18px;
+	border: none;
+}
+p.hours {
+	color: black;
+	font-size: 24px;
+}
+td.hours {
+	padding: 10px;
+}
+
+#location {
+	float: left;
+	width: 50%;
+}
+p#locate {
+	font-size: 24px;
+}
+
+/* socialMedia.html */
+.social {
+	width: 150px;
+	height: auto;
+}
+p.content#social {
+	font-size: 24px;
+	text-align: center;
+}
+
+table.social {
+	width: 100%;
+	background-color: white;
+}
+div.center {
+	align-content: center;
+}
+td#right td#left {
+	width: 40%;
+}
+td#center {
+	width: 20%;
+}
+form {
+	text-align: center;
+	font-family: 'Lora', serif;
+	font-size: 20px;
+}
+
